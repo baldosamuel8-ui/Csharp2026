@@ -1,5 +1,5 @@
-double x, y, media;
-    Console.WriteLine("Digite o Primeiro Numero; ");
+double x, y, media;//Declarando as variaveis para receber os numeros e a media
+    Console.WriteLine("Digite o Primeiro Numero; ");//Saida de dados
 x =double.Parse(Console.ReadLine());
     Console.WriteLine("Digite o Segundo Numero: ");
 y =double.Parse(Console.ReadLine());
