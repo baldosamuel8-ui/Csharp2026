@@ -1,0 +1,15 @@
+C:\Users\FIC\Documents\CS2026\Csharp2026\POO\Aula 04\ConversorEmDolar\bin\Debug\net10.0\ConversorEmDolar.exe
+C:\Users\FIC\Documents\CS2026\Csharp2026\POO\Aula 04\ConversorEmDolar\bin\Debug\net10.0\ConversorEmDolar.deps.json
+C:\Users\FIC\Documents\CS2026\Csharp2026\POO\Aula 04\ConversorEmDolar\bin\Debug\net10.0\ConversorEmDolar.runtimeconfig.json
+C:\Users\FIC\Documents\CS2026\Csharp2026\POO\Aula 04\ConversorEmDolar\bin\Debug\net10.0\ConversorEmDolar.dll
+C:\Users\FIC\Documents\CS2026\Csharp2026\POO\Aula 04\ConversorEmDolar\bin\Debug\net10.0\ConversorEmDolar.pdb
+C:\Users\FIC\Documents\CS2026\Csharp2026\POO\Aula 04\ConversorEmDolar\obj\Debug\net10.0\ConversorEmDolar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FIC\Documents\CS2026\Csharp2026\POO\Aula 04\ConversorEmDolar\obj\Debug\net10.0\ConversorEmDolar.AssemblyInfoInputs.cache
+C:\Users\FIC\Documents\CS2026\Csharp2026\POO\Aula 04\ConversorEmDolar\obj\Debug\net10.0\ConversorEmDolar.AssemblyInfo.cs
+C:\Users\FIC\Documents\CS2026\Csharp2026\POO\Aula 04\ConversorEmDolar\obj\Debug\net10.0\ConversorEmDolar.csproj.CoreCompileInputs.cache
+C:\Users\FIC\Documents\CS2026\Csharp2026\POO\Aula 04\ConversorEmDolar\obj\Debug\net10.0\ConversorEmDolar.sourcelink.json
+C:\Users\FIC\Documents\CS2026\Csharp2026\POO\Aula 04\ConversorEmDolar\obj\Debug\net10.0\ConversorEmDolar.dll
+C:\Users\FIC\Documents\CS2026\Csharp2026\POO\Aula 04\ConversorEmDolar\obj\Debug\net10.0\refint\ConversorEmDolar.dll
+C:\Users\FIC\Documents\CS2026\Csharp2026\POO\Aula 04\ConversorEmDolar\obj\Debug\net10.0\ConversorEmDolar.pdb
+C:\Users\FIC\Documents\CS2026\Csharp2026\POO\Aula 04\ConversorEmDolar\obj\Debug\net10.0\ConversorEmDolar.genruntimeconfig.cache
+C:\Users\FIC\Documents\CS2026\Csharp2026\POO\Aula 04\ConversorEmDolar\obj\Debug\net10.0\ref\ConversorEmDolar.dll

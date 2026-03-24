@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="../Circunferencia02/Circunferencia02.csproj" />
+  <Project Path="../Circunferencia03/Circunferencia03.csproj" />
+  <Project Path="../ConversorEmDolar/ConversorEmDolar.csproj" Id="535f2860-490e-40db-bd4e-91dc57a43eab" />
+  <Project Path="Circuferencia01/Circuferencia01.csproj" />
+</Solution>
