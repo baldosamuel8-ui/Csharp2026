@@ -35,14 +35,20 @@
         }
 
         //Metodos
-        void IOperacao.Deposito(double quantia)
+        public void Deposito(double quantia)
         {
-            throw new NotImplementedException();
+            SaldoConta += quantia;
         }
 
-        void IOperacao.Saque(double qauntia)
+         public void Saque(double quantia)
         {
-            throw new NotImplementedException();
+            SaldoConta -= quantia;
         }
+
+        public override string ToString()
+        {
+            return $"Dados do cliente - {Tipo.ContaNormal}: \n" + $"\tNome: {DadosCliente.nome}\n" + $"\tCPF: {cliente.cpf}\n" + $"\tNumero: {NumeroConta}\n" + $"\tSaldo: {SaldoConta:C}";
+        }
+
     }
 }
