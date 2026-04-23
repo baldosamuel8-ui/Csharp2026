@@ -5,29 +5,32 @@ namespace SistemaBancario.Classes.Contextos
 {
     internal class BancoContexto : DbContext
     {
+        //Propriedadas
         /// <summary>
-        /// DBset Representa a tabela de contas bancarias no banco de dados
+        /// Representa a tabela de contas bancárias no banco de dados
+        /// DbSet permite realizar operações CRUD
         /// </summary>
-        
-        public DbSet <Banco> Contas { get; set; }
+        public DbSet<Banco> Contas { get; set; }
 
-        //Metodos
+        //Métodos
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            // Use SQLite for a lightweight file-based database so the app doesn't depend on LocalDB
-            optionsBuilder.UseSqlite("Data Source=BancoDB.db;");
+            // string verbatim: use uma única barra '\'
+            optionsBuilder.UseSqlServer(
+            @"Server=ECFP507D1319379\SQLEXPRESS;Database=Banco;Trusted_Connection=True;TrustServerCertificate=True;");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Banco>(entity=>
+            modelBuilder.Entity<Banco>(
+            entity =>
             {
-                entity.HasKey(e=>e.Id);
-                entity.Property(e=>e.NumeroConta).IsRequired();
-                entity.Property(e=>e.Titular).IsRequired().HasMaxLength(200);
+                entity.HasKey(e => e.Id);
+                entity.Property(e => e.NumeroConta).IsRequired();
+                entity.Property(e => e.Titular).IsRequired().HasMaxLength(50);
                 entity.Property(e => e.Saldo).HasColumnType("decimal(18,2)");
             }
-                 
+
             );
         }
     }
